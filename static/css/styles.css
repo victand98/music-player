@@ -210,7 +210,7 @@ body {
 }
 
 .music-list.show {
-  bottom: -55%;
+  bottom: 0;
   opacity: 1;
   pointer-events: auto;
 }
