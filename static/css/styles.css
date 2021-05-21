@@ -30,6 +30,9 @@ body {
   min-height: 100vh;
 }
 
+/*
+  WRAPPER
+*/
 .wrapper {
   position: relative;
   width: 380px;
@@ -44,6 +47,10 @@ body {
   cursor: pointer;
 }
 
+/*
+  CENTER ALL AND SPACE BEETWEEN THEM
+*/
+
 .top-bar,
 .progress-area .timer,
 .controls,
@@ -54,6 +61,9 @@ body {
   justify-content: space-between;
 }
 
+/*
+  TOP BAR
+*/
 .top-bar i {
   font-size: 30px;
   color: var(--lightblack);
@@ -64,6 +74,9 @@ body {
   color: var(--lightblack);
 }
 
+/*
+  IMAGE AREA
+*/
 .img-area {
   height: 256px;
   width: 100%;
@@ -79,6 +92,9 @@ body {
   object-fit: cover;
 }
 
+/*
+  SONG DETAILS
+*/
 .song-details {
   text-align: center;
   margin: 30px 0;
@@ -94,6 +110,9 @@ body {
   opacity: 0.8;
 }
 
+/*
+  PROGRESS AREA
+*/
 .progress-area {
   height: 6px;
   width: 100%;
@@ -137,6 +156,9 @@ body {
   color: var(--lightblack);
 }
 
+/*
+  CONTROLS AREA
+*/
 .controls {
   margin: 40px 0 5px 0;
 }
@@ -174,6 +196,7 @@ body {
   justify-content: center;
   box-shadow: 0px 0px 5px var(--pink);
 }
+
 .play-pause::before {
   content: "";
   position: absolute;
@@ -195,6 +218,9 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+/*
+  MUSIC LIST
+*/
 .music-list {
   position: absolute;
   left: 0;
